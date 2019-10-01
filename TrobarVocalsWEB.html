@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Practica 2 Funcions</title>
+    </head>
+    <body>
+        <script>
+            var text = prompt('Introdueix el text');
+            var vocals =['a','e','i','o','u'];
+            var cont=0;
+            
+            for(var i = 0;i <= text.length; i++ ){
+                for(var j = 0; j <= vocals.length; j++){
+                    if(text.charAt(i)==vocals[j]) cont++;
+                }
+            }
+            alert('El text conte '+cont+' vocals.');
+        </script>
+        </body>
+</html>
